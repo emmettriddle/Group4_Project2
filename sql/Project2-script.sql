@@ -5,6 +5,8 @@ select * from pet;
 select * from application;
 select * from employee;
 
+alter table pet add column name varchar;
+
 create table customer(
 id serial primary key,
 fname varchar,
